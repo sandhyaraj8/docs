@@ -41,3 +41,6 @@ sudo dnf install -y  rhythmbox kdenlive gimp audacity obs-studio handbrake
 ```bash
 sudo dnf install gstreamer1-plugin-openh264 gstreamer1-plugins-bad-free gstreamer1-plugins-bad-freeworld gstreamer1-plugins-bad-nonfree gstreamer1-plugins-base gstreamer1-plugins-good gstreamer1-plugins-good-gtk gstreamer1-plugins-ugly gstreamer1-plugins-ugly-free
 ```
+
+### Add Shared Folder
+* ln -s /mnt/hgfs/WINDOWS-SHARE ~/windows-share
