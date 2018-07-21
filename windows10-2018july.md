@@ -15,9 +15,14 @@
 * Run Systm Update - takes 15 mins
 * Chromium browser – The open source version of the Chrome browser and a great alternative to Firefox.
 * Terminator - MultiPanel Terminal
+* goto https://www.google.com/chrome/ choose 64 bit rpm
+
+* Change download locations in browser settings
+
 ```bash
 sudo dnf update -y
 sudo hostnamectl set-hostname fastmachine1
+sudo dnf install /home/sandhya/Downloads/google-chrome-stable_current_x86_64.rpm
 ```
 
 * Rhythmbox – My favorite music player.
